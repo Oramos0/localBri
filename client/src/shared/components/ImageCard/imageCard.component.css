@@ -1,0 +1,113 @@
+.card {
+  background-color: #222831;
+  width: calc(250px);
+  min-height: 12vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh 0;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+}
+
+.card-header {
+  width: 100%;
+  height: 150px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-container {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  position: relative;
+  background-color: #222831;
+}
+
+.card-container > i {
+  width: 100%;
+  padding: 5px 0;
+}
+
+.card-title {
+  color: #29a19c;
+  margin-bottom: -3px;
+}
+
+.card-description {
+  color: white;
+  line-height: 24px;
+}
+
+.card-footer {
+  min-height: 6vh;
+  color: white;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding-top: 5px;
+  position: relative;
+}
+
+.card-footer::after {
+  content: '';
+  position: absolute;
+  z-index: 500;
+  left: 5%;
+  top: 0px;
+  height: 1px;
+  width: 90%;
+  border-top: 0.5px solid #29a19c;
+}
+
+.card-footer > div > i {
+  font-size: 25px;
+}
+
+.card-likes {
+  font-size: 0.6em;
+}
+
+.card-footer > div > i:hover {
+  transform: scale(1.2);
+  color: #a3f7bf;
+  transition: 0.2s;
+}
+
+.imageCard-modal {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  /* padding: 10px; */
+}
+
+.ant-modal-content {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ant-modal-footer {
+  background: rgba(0, 0, 0, 0);
+  border-top: 1px solid transparent;
+}
+
+.anticon {
+  color: white;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.card-button-delete {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}

@@ -1,0 +1,18 @@
+.search-input-container {
+  min-width: 35vw;
+  height: 4vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search-input-container > label {
+  color: #1890ff;
+  cursor: pointer;
+  margin-right: 15px;
+  align-self: flex-end;
+}
+
+.search-bar {
+  width: 30vw;
+}

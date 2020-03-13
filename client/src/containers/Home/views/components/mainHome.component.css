@@ -1,0 +1,74 @@
+/* Section 1 */
+.main-home {
+  height: calc(100vh - 70px);
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(34, 40, 49, 1) 0%,
+    rgba(41, 161, 156, 1) 76%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-home-img-backround {
+  background-image: url(../../../../media/localbri-only-bri.png);
+  background-size: cover;
+  background-position: center;
+  height: 150%;
+  width: 150%;
+  position: absolute;
+  top: -10vh;
+  left: 20vw;
+  filter: blur(8px);
+  z-index: -5;
+  margin-bottom: 10px;
+}
+
+.main-home-info {
+  margin-top: -70px;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.main-home-title,
+.main-home-description {
+  color: white;
+}
+
+.main-home-btns a:last-child {
+  margin: 0 10px;
+}
+
+/* Colores del Button Saber mas */
+.main-home-btns .main-home-btn2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+}
+
+.main-homebtns {
+  z-index: 10;
+}
+
+.main-home-btns .main-home-btn2:hover {
+  background-color: #222831;
+  border-color: #222831;
+}
+
+/* Media Queries: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .main-home .main-home-img {
+    width: 80%;
+  }
+  .main-home-info {
+    margin-top: -140px;
+    width: 90%;
+  }
+}

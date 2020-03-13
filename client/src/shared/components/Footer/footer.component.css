@@ -1,0 +1,148 @@
+.footer-container{
+  width: 100%;
+  min-height: 20vh;
+  /* max-height: 30vh; */
+  background-color: #222831;
+  position: absolute;
+
+  -webkit-box-shadow: 0px -4px 11px 0px rgba(28,28,28,1);
+-moz-box-shadow: 0px -4px 11px 0px rgba(28,28,28,1);
+box-shadow: 0px -4px 11px 0px rgba(28,28,28,1);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: top;  
+  /* border: solid 5px purple; */
+}
+
+.footer-content{
+  /* width: 50%; */
+  padding: 15px;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company{
+  /* border: solid 2px white; */
+  width: 40%;
+}
+
+.products{
+  /* border: solid 2px white; */
+  width: 15%;
+}
+.accounts{
+  /* border: solid 2px white; */
+  width: 15%;
+}
+
+.resources{
+  /* border: solid 2px white; */
+  width: 15%;
+}
+
+.support{
+  /* border: solid 2px white; */
+  width: 15%;
+}
+
+.footer-title{
+  font-weight: bold;
+  font-size: 20px;
+  color: #29A19C;
+}
+
+.social-media{
+  /* border: solid 2px white; */
+  width: 100%;
+  height: 10%;
+}
+
+.social-media ul{
+  /* border: solid 2px white; */
+  width: 50%;
+  text-decoration: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-media > ul > li{
+  /* border: solid 2px white; */
+  list-style: none;
+  margin-left: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-content{
+    width: 50%;
+  }
+
+  .company{
+    width: 100%;
+  }
+
+  .social-media{
+   width: 100%;
+  }
+
+  .social-media > ul{
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-content{
+    width: 33.3%;
+  }
+
+  .company{
+    width: 100%;
+  }
+
+  .social-media{
+    width: 50%;
+   }
+ 
+   .social-media > ul{
+     width: 100%;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+} 

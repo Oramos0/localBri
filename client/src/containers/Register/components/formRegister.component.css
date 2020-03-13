@@ -1,0 +1,42 @@
+.register-form {
+  width: 45vh;
+
+  /* height: 50vh; */
+  margin: 15vh auto 100px auto;
+
+  background: #222831;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.user-logo {
+  padding: 10px;
+  margin-top: 1.5rem;
+}
+
+.register-form-forgot {
+  margin-right: 4em;
+  color: #29a19c;
+}
+.register-form-button {
+  width: 100%;
+}
+
+.register-register {
+  color: #29a19c;
+}
+
+.register-components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* margin between form items*/
+.ant-form-item {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}

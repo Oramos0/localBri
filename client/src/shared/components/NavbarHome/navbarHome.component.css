@@ -1,0 +1,87 @@
+.title-store {
+  color: white;
+}
+.navbarHome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222831;
+  height: 70px;
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.navbarHome-sub1 img {
+  width: 50px;
+}
+
+.navbarHome-sub1 a,
+.navbarHome-sub2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-popover-placement-bottomRight > .ant-popover-content > .ant-popover-arrow {
+  border-color: #393e46;
+}
+.ant-popover-inner-content {
+  background-color: #393e46;
+}
+.navbarHome-sub2 a {
+  margin: 0 10px;
+}
+
+.navbarHome-sub1 h1 {
+  margin: 0 5px;
+}
+
+/* Colores del Button Login */
+.navbarHome-sub2-btn-login {
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.navbarHome-sub2-btn-login:hover {
+  color: #29a19c;
+  cursor: pointer;
+}
+
+/* Media Queries: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .navbarHome-container {
+    justify-content: space-between;
+  }
+  .navbarHome-sub1,
+  .navbarHome-sub2 {
+    margin: 0 10px;
+  }
+  .navbarHome-sub1 h1 {
+    display: none;
+  }
+  .navbarHome-sub1 img {
+    width: 50px;
+  }
+  /* Popover */
+  .navbarHome-sub2 {
+    flex-direction: column;
+    height: 130px;
+    text-align: left;
+    color: #29a19c;
+  }
+  .navbarHome-sub2 i {
+    font-size: 25px;
+  }
+  .navbarHome-sub2 a {
+    margin: 4px 0;
+  }
+  .navbarHome-sub2 h3 {
+    margin: 0;
+  }
+  .navbarHome-sub2 h3 {
+    width: 140px;
+  }
+}

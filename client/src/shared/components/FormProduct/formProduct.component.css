@@ -1,0 +1,66 @@
+.form-backgroud {
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #222831;
+  border-radius: 8px;
+  /* margin: 20px; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  color: #29a19c;
+}
+
+.form-antd-item input,
+.form-antd-item textarea,
+.form-antd-item select {
+  background-color: #393e46;
+  color: white;
+  border: none;
+}
+
+.form-antd-item input::placeholder {
+  color: white;
+}
+
+.ant-input {
+  background-color: #393e46 !important;
+}
+/* BACKGORUND COLOR CHANGES AT INPUTS */
+.has-error .ant-input-affix-wrapper .ant-input,
+.has-error .ant-input-affix-wrapper .ant-input:hover,
+.ant-input {
+  background-color: #393e46;
+}
+
+.ant-input::placeholder,
+.ant-upload.ant-upload-drag p.ant-upload-text {
+  color: white;
+}
+
+.ant-upload.ant-upload-drag p.ant-upload-hint {
+  color: rgb(179, 179, 179);
+}
+
+.form-item-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*
+  #222831 Azul oscuro
+  #393e46 Gris
+  #29a19c Azul
+  #a3f7bf Verde calro
+*/

@@ -1,0 +1,19 @@
+.form-background-credit-card {
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container-credit-card {
+  /* width: 30%; */
+  background-color: #222831;
+  border-radius: 8px;
+  /* margin: 20px; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

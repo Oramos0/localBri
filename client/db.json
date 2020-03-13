@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Camisa",
+      "productDescripcion": "Camisa para caballero",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/p960x960/81280913_3415609845177031_2172086650895597568_o.jpg?_nc_cat=102&_nc_oc=AQnxcV7E_7aipiXDAcx-aCDyqu0K7IusV10PcNGoFrzJp2GoWVzAJerxPIf6hDAlQ5g&_nc_ht=scontent.fclq1-1.fna&_nc_tp=1&oh=2172b4e4fa7568528d6498b18be41576&oe=5EA3FDEF"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "250.00",
+      "productLikes": "3",
+      "urlDetails": "",
+      "owneUser": "OtoDaniel"
+    },
+    {
+      "id": 2,
+      "productName": "Blusa",
+      "productDescripcion": "Blusa para Dama",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/79263926_3337223263015690_3362984187614199808_n.jpg?_nc_cat=102&_nc_oc=AQnxGLmLXgX1H2Cf_SF_3fh4rUwuVCwaO6082rAAvuHvqX2xFf8krs_HHeas5re2NiM&_nc_ht=scontent.fclq1-1.fna&oh=be8af552c0e0097098b64e8632135515&oe=5EAAAE21",
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/79263926_3337223263015690_3362984187614199808_n.jpg?_nc_cat=102&_nc_oc=AQnxGLmLXgX1H2Cf_SF_3fh4rUwuVCwaO6082rAAvuHvqX2xFf8krs_HHeas5re2NiM&_nc_ht=scontent.fclq1-1.fna&oh=be8af552c0e0097098b64e8632135515&oe=5EAAAE21"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "250.00",
+      "productLikes": "24",
+      "urlDetails": "",
+      "owneUser": "OtoDaniel"
+    },
+    {
+      "id": 3,
+      "productName": "Gorra",
+      "productDescripcion": "Gorra + Sticker",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/p720x720/72344633_3158278827576802_1239052147400638464_o.jpg?_nc_cat=110&_nc_oc=AQnzF6mdmaXQLgKnVerxBHx7_14NwSILzMimojpi7_dnkAQhjeQPsJ5UEKhsulDJsf4&_nc_ht=scontent.fclq1-1.fna&_nc_tp=1&oh=ec8028e49d33691c4839dd380d41fb0c&oe=5E945C6B"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "115.00",
+      "productLikes": "4",
+      "urlDetails": "",
+      "owneUser": "OtoDaniel"
+    },
+    {
+      "id": 4,
+      "productName": "Blusa",
+      "productDescripcion": "Blusa Lobo",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/p720x720/67314453_2917747068296647_3542257690212302848_o.jpg?_nc_cat=111&_nc_oc=AQkKn_jvywMRaVwxWMkOCdSRBdRjpHx3YvUlTJWuuDMAgBk5R6gnw5rC3yD2-ELxd6g&_nc_ht=scontent.fclq1-1.fna&_nc_tp=1&oh=c2670bb9082ee6fbedb3bedc128a2c5b&oe=5EA33EEF"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "190.00",
+      "productLikes": "74",
+      "urlDetails": "",
+      "owneUser": "OtoDaniel"
+    },
+    {
+      "id": 5,
+      "productName": "Stickers",
+      "productDescripcion": "Sticker chidos",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/p960x960/79543848_1012354855764589_4378527877608505344_o.jpg?_nc_cat=107&_nc_oc=AQkFyLERlyXhwYmVVMfIXoa-4v7hNE9xodqrUR84byfBLOeAI-VxluC56poMFKInrlg&_nc_ht=scontent.fclq1-1.fna&_nc_tp=1&oh=9a86718f98f2af54392d0428caeb7be5&oe=5EAFBEA9"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "15.00",
+      "productLikes": "240",
+      "urlDetails": "",
+      "owneUser": "Dalila Van Winkle"
+    },
+    {
+      "id": 6,
+      "productName": "Parches",
+      "productDescripcion": "Parches chidos",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/s960x960/75223744_991163454550396_10456501609037824_o.jpg?_nc_cat=106&_nc_oc=AQmhSPoZRO_5vUA8nwtg74KGA5f6llNpq_faYTawkxjWyt1Vj5P5vLUy4IsCuncdv1c&_nc_ht=scontent.fclq1-1.fna&_nc_tp=1&oh=45983e249d6840557b24b05fec22c3bf&oe=5E9BDA1B"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "25.00",
+      "productLikes": "210",
+      "urlDetails": "",
+      "owneUser": "Dalila Van Winkle"
+    },
+    {
+      "id": 7,
+      "productName": "Print",
+      "productDescripcion": "Print chido",
+      "urlImage": [
+        "https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-9/s960x960/76706699_974368786229863_5547616820233502720_o.jpg?_nc_cat=103&_nc_oc=AQleCxRkQxx51q-WLf8OfpQbbEjrFUhmk_6LS2EDRxQmt244Hke0oVyQZCb08RIBd2I&_nc_ht=scontent.fclq1-1.fna&_nc_tp=1&oh=5b03d18585d80018af87a504c56aa12a&oe=5EA6153F"
+      ],
+      "productUbication": "Colima, Mexico",
+      "productPrice": "50.00",
+      "productLikes": "130",
+      "urlDetails": "",
+      "owneUser": "Dalila Van Winkle"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Otoniel",
+      "lasName": "Ramos Andres",
+      "userName": "OtoDaniel"
+    },
+    {
+      "id": 2,
+      "firstName": "Dalila",
+      "lasName": "Virgen",
+      "userName": "Dalila Van Winkle"
+    }
+  ]
+}

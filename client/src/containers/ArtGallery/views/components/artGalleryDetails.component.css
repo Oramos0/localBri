@@ -1,0 +1,110 @@
+.artGalleryDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* min-height: 100vh; */
+  width: 100%;
+  background-color: #393e46;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.artGalleryDetails-container {
+  background-color: #222831;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 5vh; */
+}
+
+.artGalleryDetails-cont-2 {
+  margin: 1rem;
+  width: 95%;
+}
+
+.artGalleryDetails-cont-2-title {
+  color: #29a19c;
+}
+
+.artGalleryDetails-cont-2-desc,
+.artGalleryDetails-cont-2-price i,
+.artGalleryDetails-cont-2-price span,
+.artGalleryDetails-cont-2-location i,
+.artGalleryDetails-cont-2-location span,
+.artGalleryDetails-cont-2-likes {
+  color: white;
+}
+
+.artGalleryDetails-cont-2-title-heart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artGalleryDetails-cont-2-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+
+.artGalleryDetails-cont-2-heart i {
+  color: white;
+  font-size: 25px;
+}
+
+.artGalleryDetails-cont-2-heart i:hover {
+  transform: scale(1.2);
+  color: #a3f7bf;
+  transition: 0.2s;
+}
+
+.artGalleryDetails-cont-2-likes {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+.artGalleryDetails-cont-2-btns {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Colores del Button Donar */
+.artGalleryDetails-cont-2-btn-2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+}
+
+.artGalleryDetails-cont-2-btn-2:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #a3f7bf;
+  color: #a3f7bf;
+}
+
+.fas:hover {
+  color: #a3f7bf;
+}
+
+.artGalleryDetails-cont-2-btn-1 {
+  margin-right: 0.5rem;
+}
+
+.artGalleryDetails-cont-2-btn-2 {
+  margin-left: 0.5rem;
+}
+
+.artGalleryDetails-cont-2-btn-1,
+.artGalleryDetails-cont-2-btn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artGalleryDetails-cont-2-btn-1 p,
+.artGalleryDetails-cont-2-btn-2 p {
+  margin: 0 0 0 5px;
+}

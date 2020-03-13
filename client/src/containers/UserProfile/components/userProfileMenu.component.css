@@ -1,0 +1,44 @@
+.gallery-menu-container {
+  background-color: #222831;
+  width: 800px;
+  padding: 10px;
+  margin: 2vh 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-menu-btn p {
+  margin: 0 0 0 5px;
+}
+
+/* Colores de los botones */
+.gallery-menu-btn {
+  color: #222831;
+  background-color: #29a19c;
+  border-color: #29a19c;
+}
+.gallery-menu-btn:hover {
+  color: #222831;
+  background-color: #a3f7bf;
+  border-color: #a3f7bf;
+}
+
+/* Media Queries: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .gallery-menu-btn p {
+    display: none;
+  }
+  .gallery-menu-container {
+    width: 96%;
+  }
+}

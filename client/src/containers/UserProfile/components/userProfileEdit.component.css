@@ -1,0 +1,71 @@
+.user-edit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222831;
+  border-radius: 10px;
+  padding: 10px;
+  width: 600px;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.user-description {
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.user-phone-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-phone-container i {
+  margin-top: -9px;
+}
+
+.user-phone-container .user-phone {
+  margin-left: 3px;
+}
+
+.user-socials {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-social-link {
+  display: flex;
+}
+
+.user-description,
+.user-phone-container i,
+.user-social-link i,
+.user-social-text {
+  color: white;
+}
+
+.user-name,
+.user-phone {
+  color: #29a19c;
+}
+
+.user-social-text {
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+/* Media Queries: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .user-edit-container {
+    width: 96%;
+  }
+}

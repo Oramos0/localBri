@@ -1,0 +1,29 @@
+.user-profile-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #393e46;
+}
+
+.filter-search-container {
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 0;
+}
+
+.user-profile-section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile-section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #393e46;
+}
